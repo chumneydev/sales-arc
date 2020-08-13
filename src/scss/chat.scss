@@ -1,0 +1,325 @@
+/* Louis Stephens
+ * 01/28/19
+ *
+ */
+
+
+
+@import "variables";
+
+
+* {
+    font-family: Helvetica;
+}
+
+body {
+    position: relative;
+}
+
+#chatterspot-chatus {
+    .fadeIn {
+        animation: fadeIn 2s;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .fadeIn {
+        animation: fadeIn 2s;
+    }
+
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    .fadeOut {
+        animation: fadeOut 2s;
+        display: none;
+    }
+
+
+    & .close-bubble {
+        z-index: 9999;
+        position: fixed;
+        bottom: 235px;
+        right: 35px;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        background: #000000;
+        color: #FFFFFF;
+        border: none;
+
+
+    }
+
+
+
+    & .catooltip {
+        z-index: 999;
+        position: fixed;
+        bottom: 130px;
+        right: 40px;
+        background: #FFFFFF;
+        padding: 10px 20px;
+        width: 224px;
+        border-radius: 8px;
+        box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.35);
+
+
+        &::after {
+            content: " ";
+            position: absolute;
+            bottom: -20px;
+            right: 12%;
+            /* To the right of the tooltip */
+            margin-top: -5px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: #FFFFFF transparent transparent transparent;
+        }
+
+        & p {
+            margin: 0;
+        }
+
+        & img {
+            float: left;
+            width: 50px;
+            border-radius: 50%;
+        }
+
+
+        & .header {
+            display: block;
+            padding: 0 0 5px 0;
+            overflow: auto;
+
+            & ul {
+                float: left;
+                padding: 0 0 0 10px;
+                margin-top: 0;
+
+                & li {
+                    list-style: none;
+
+                    &.help-name {
+                        padding: 0px 0 5px 0;
+                        color: #4e4d4d;
+                        margin-bottom: 0;
+                    }
+
+                    &.help-dealer {
+                        font-size: 12px;
+                        color: #c1c1c1;
+                    }
+
+                }
+            }
+
+        }
+
+        & .message {
+            padding: 5px 0 0 0;
+            font-size: 14px;
+            line-height: 1.3em;
+            color: #4e4d4d;
+        }
+
+    }
+
+    & .chatus {
+        z-index: 999;
+        position: fixed;
+        right: 60px;
+        bottom: 60px;
+        font-size: 32px;
+        color: #FFFFFF;
+        background: $red;
+        padding: 6px 8px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-transform: uppercase;
+        box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.35);
+        border: none;
+
+        & img {
+            width: 50px;
+        }
+
+        &:hover {
+            box-shadow: none;
+            color: #0d78aa;
+            border: 2px solid $red;
+            background: $red;
+        }
+    }
+}
+
+// chat button
+.ca-btn-chat {
+    margin: 4px 0;
+
+    a {
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.3333333;
+        padding: 10px 16px;
+        display: block;
+        width: 100%;
+        color: $white;
+        background: #0d78aa;
+        box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.35);
+
+        &:hover {
+            box-shadow: none;
+            color: $white;
+            background: #4796CD;
+            animation: none;
+        }
+    }
+}
+
+
+//form 
+#chatterspot-general {
+
+    & form {
+        padding: 20px;
+        width: 100%;
+
+        & label {
+            display: block;
+            padding: 0 0 5px 0;
+
+            &.ca-required::after {
+                content: "*";
+                color: $red;
+            }
+        }
+
+        & input {
+            width: 100%;
+            display: block;
+            padding: 10px 0;
+            text-indent: 5px;
+            font-size: 14px;
+            border: 1px solid $grey-300;
+            transition: border-color .5s;
+
+            &:hover {
+                border-color: $blue-400;
+            }
+
+            &:focus {
+                outline: none;
+                border: 1px solid $blue-400;
+            }
+        }
+
+        & #ca-submit {
+            color: $white;
+            font-size: 14px;
+            background: $red;
+            border: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            cursor: pointer;
+
+            &:hover {
+                background: darken($red, 1.0)
+            }
+        }
+
+
+
+    }
+
+    & .insp-row {
+        padding: 10px 0;
+    }
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #chatterspot-chatus .chatus {
+        position: fixed;
+        right: 20px;
+        bottom: 10px;
+        width: 50px;
+        height: 50px;
+
+        & img {
+            width: 25px;
+        }
+    }
+
+    & .close-bubble {
+        z-index: 9999;
+        position: fixed;
+        bottom: 200px !important;
+        right: 25px !important;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        background: #000000;
+        color: #FFFFFF;
+        border: none;
+
+
+    }
+
+
+
+
+    #chatterspot-chatus {
+        & .catooltip {
+            z-index: 999;
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            background: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.35);
+
+
+            &::after {
+                content: " ";
+                position: absolute;
+                bottom: -20px;
+                left: 6%;
+                /* To the right of the tooltip */
+                margin-top: -5px;
+                border-width: 10px;
+                border-style: solid;
+                border-color: #FFFFFF transparent transparent transparent;
+            }
+        }
+
+    }
+
+
+
+}

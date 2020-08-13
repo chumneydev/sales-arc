@@ -1,0 +1,20 @@
+@import "variables";
+
+a {
+
+    &.button {
+        width: 100%;
+        color: white;
+        background: $red;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+
+        &:hover {
+            background: darken($red, 10%)
+        }
+
+    }
+
+}

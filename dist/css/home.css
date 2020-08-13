@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap");
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background: #C8C8C8;
+}
+
+#home {
+  font-family: Helvetica;
+}
+
+#contact {
+  padding: 10px 0;
+  color: #FFFFFF;
+  background: #EB2D1C;
+  text-align: center;
+}
+
+#contact p {
+  align-self: center;
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  background: #000000;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+#header #logo {
+  width: 15%;
+  padding: 0 0 0 20px;
+  align-self: left;
+}
+
+#header #logo img {
+  display: block;
+  align-self: center;
+  width: 150px;
+}
+
+#header #nav {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  width: 75%;
+  align-self: center;
+}
+
+#header #nav ul li {
+  padding: 0 10px;
+  display: inline-block;
+}
+
+#header #nav ul li a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#header #nav ul li a:hover {
+  color: #EB2D1C;
+}
