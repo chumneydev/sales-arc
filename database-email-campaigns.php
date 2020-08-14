@@ -20,41 +20,39 @@
 
 
 
-    <!-- inventory -->
-    <div id="inventory">
+    <!-- content -->
+    <div id="main">
 
-        <!-- top -->
-        <div id="top">
-            <div id="start" class="masthead">
-                <h1><span id="count">195</span> Vehicles Found</h1>
-            </div>
-
-            <div id="center" class="masthead">
-                <div id="search">
-                    <input type="text" class="input" data-ref="input-search" placeholder="Search for Vehicles"/>
-                </div>    
-            </div>
-
-            <div id="end" class="masthead">
-                <ul>
-				    <li><a class="control" href="#"><i class="far fa-ballot"></i></a></li>
-				    <li><a class="control" data-sort="default:asc" href="#"><i class="far fa-sort-alpha-up-alt"></i></a></li>
-				    <li><a class="control" data-sort="default:desc" href="#"><i class="far fa-sort-alpha-down"></i></a></li>
-				    <li><a class="control" data-sort="price:asc" href="#"><i class="far fa-sort-amount-up"></i></a></li>
-				    <li><a class="control" data-sort="price:desc" href="#"><i class="far fa-sort-amount-down-alt"></i></a></li>
-                </ul>
-            </div>
-        
+        <!-- switcher -->
+        <div id="switcher">
+            <h1>Database Email Campaigns</h1>
+            <ul>
+                <li><a href="#">Buy Back</a></li>
+                <li><a href="#">Competitor's Database</a></li>
+                <li><a href="#">Equity High Interest</a></li>
+                <li><a href="#">Equity</a></li>
+                <li><a href="#">EZ-Upgrade</a></li>
+                <li><a href="#">High Interest</a></li>
+                <li><a href="#">Lease</a></li>
+                <li><a href="#">Lost Customer Scratch-off</a></li>
+                <li><a href="#">Top Trades</a></li>
+            </ul>
         </div>
-        <!-- top -->
+        <!-- switcher -->
 
+        <div id="content-wrapper">
+            <div id="alert">
+                <div id="alert-icon">
+                    <i class="far fa-comment-alt"></i> 
+                </div>
+                <div id="alert-text">
+                    <p>Choose your selection on the left to view an example of the campaign</p>
+                </div>
+            </div>
 
-        
-        <div id="inventory-wrapper" data-ref="container">
-            <?php include("services/partials/vehicle-multi.php"); ?>        
         </div>
     </div>
-    <!-- inventory -->
+    <!-- content -->
 
 </div>
 <!-- app -->

@@ -64,3 +64,64 @@ body {
 #header #nav ul li a:hover {
   color: #EB2D1C;
 }
+
+#main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#main #switcher {
+  flex: 0 0 25%;
+  margin: 35px 0 0 35px;
+  background: #FFFFFF;
+  padding: 20px;
+  box-shadow: 0 5px 15px -4px rgba(0, 0, 0, 0.5);
+}
+
+#main #switcher h1 {
+  font-size: 1.2em;
+}
+
+#main #switcher ul {
+  padding: 0;
+}
+
+#main #switcher ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+#main #switcher ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+#main #switcher ul li a:hover {
+  color: #EB2D1C;
+}
+
+#main #content-wrapper {
+  flex: 0 0 60%;
+  margin: 35px 35px 0 20px;
+}
+
+#main #content-wrapper #alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #EB2D1C;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  box-shadow: 0 5px 15px -4px rgba(0, 0, 0, 0.5);
+}
+
+#main #content-wrapper #alert #alert-icon {
+  font-size: 1.9em;
+}
+
+#main #content-wrapper #alert #alert-text {
+  padding: 0 20px;
+}

@@ -16,33 +16,7 @@
 <!-- app -->
 <div id="home">
 
-    <!-- contact -->
-    <div id="contact">
-        <p><i class="fas fa-phone-alt"></i> Call Us: 864-555-1234</p>
-    </div>
-    <!-- contact -->
-
-    <!-- header -->
-    <div id="header" class="flex">
-        <div id="logo">
-            <img src="dist/images/logo.png" />
-        </div>
-
-        <div id="nav">
-            <ul>
-                <li><a href="#">Entrance Modal</a></li>
-                <li><a href="#">Exit Modal</a></li>
-                <li><a href="#">Scratch-off Modals</a></li>
-                <li><a href="#">Video Modals</a></li>
-                <li><a href="#">Hover Buttons</a></li>
-                <li><a href="#">Insertion Buttons</a></li>
-                <li><a href="#">Database Email Campaigns</a></li>
-            </ul>
-                
-        </div>
-    </div>
-    <!-- header -->
-
+   <?php include("partials/header.php"); ?>
 
 
     <!-- inventory -->

@@ -78,7 +78,78 @@ body {
 }
 
 
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
+    & #switcher {
+        flex: 0 0 25%;
+        margin: 35px 0 0 35px;
+        background: $white;
+        padding: 20px;
+        box-shadow: 0 5px 15px -4px rgba(0, 0, 0, .5);
+
+        & h1 {
+            font-size: 1.2em;
+        }
+
+        & ul {
+            padding: 0;
+
+            & li {
+                list-style: none;
+                padding: 5px 0;
+
+                & a {
+                    color: $black;
+                    text-decoration: none;
+                    transition: color .5s;
+
+                    &:hover {
+                        color: $red;
+                    }
+
+
+                }
+            }
+        }
+
+
+    }
+
+    & #content-wrapper {
+        flex: 0 0 60%;
+        margin: 35px 35px 0 20px;
+
+        
+        & #alert {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: $red;
+            color: $white;
+            padding: 10px 20px;
+            box-shadow: 0 5px 15px -4px rgba(0, 0, 0, .5);
+            
+            & #alert-icon {
+                font-size: 1.9em;
+            }
+
+            & #alert-text {
+                padding: 0 20px;
+            }
+
+        }
+
+
+
+
+    }
+
+
+}
 
 
 

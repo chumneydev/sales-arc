@@ -28,7 +28,8 @@ a.button:hover {
 }
 
 #inventory #top #start h1 {
-  font-size: 1.3em;
+  font-weight: normal;
+  font-size: 1.1em;
 }
 
 #inventory #top #start h1 span {
