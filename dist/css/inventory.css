@@ -16,48 +16,37 @@ a.button:hover {
   box-sizing: border-box;
 }
 
-#inventory #results {
+#inventory #top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   background: #FFFFFF;
   margin: 20px 40px;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-#inventory #results #vehicle-count h1 {
+#inventory #top #start h1 {
   font-size: 1.3em;
 }
 
-#inventory #results #vehicle-count h1 span {
+#inventory #top #start h1 span {
   color: #FFFFFF;
   background: #EB2D1C;
   padding: 5px 10px;
   border-radius: 6px;
 }
 
-#inventory #results #search ul {
-  padding: 0;
+#inventory #top #center {
+  flex: 0 1 700px;
 }
 
-#inventory #results #search ul li {
-  padding: 0 10px;
-  list-style: none;
-  display: inline-block;
+#inventory #top #center #search {
+  flex: 1;
 }
 
-#inventory #results #search ul li a {
-  font-size: 1.3em;
-  color: #000000;
-  transition: color .5s;
-  text-decoration: none;
-}
-
-#inventory #results #search ul li a:hover {
-  color: #EB2D1C;
-}
-
-#inventory #results #search input {
+#inventory #top #center #search input {
   width: 100%;
   display: block;
   padding: 10px 0;
@@ -67,13 +56,39 @@ a.button:hover {
   transition: border-color .5s;
 }
 
-#inventory #results #search input:hover {
+#inventory #top #center #search input:hover {
   border-color: #EB2D1C;
 }
 
-#inventory #results #search input:focus {
+#inventory #top #center #search input:focus {
   outline: none;
   border: 1px solid #EB2D1C;
+}
+
+#inventory #top #end ul {
+  padding: 0;
+}
+
+#inventory #top #end ul li {
+  padding: 0 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+#inventory #top #end ul li a {
+  font-size: 1.3em;
+  color: #000000;
+  transition: color .5s;
+  text-decoration: none;
+}
+
+#inventory #top #end ul li a:hover {
+  color: #EB2D1C;
+}
+
+#inventory #top #start.masthead, #inventory #top #center.masthead, #inventory #top #end.masthead {
+  display: flex;
+  align-items: center;
 }
 
 #inventory #inventory-wrapper {
@@ -164,5 +179,33 @@ a.button:hover {
   #inventory #inventory-wrapper .wrap {
     flex: 1 0 20%;
     max-width: 20%;
+  }
+}
+
+@media (max-width: 1185px) {
+  #inventory #inventory-wrapper .wrap {
+    flex: 1 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 985px) {
+  #inventory #inventory-wrapper .wrap {
+    flex: 1 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (max-width: 790px) {
+  #inventory #inventory-wrapper .wrap {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  #inventory #inventory-wrapper .wrap {
+    flex: 1 0 100%;
+    max-width: 100%;
   }
 }

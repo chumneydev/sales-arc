@@ -37,7 +37,6 @@
                 <li><a href="#">Hover Buttons</a></li>
                 <li><a href="#">Insertion Buttons</a></li>
                 <li><a href="#">Database Email Campaigns</a></li>
-                <li><a href="inventory.php">Inventory</a></li>
             </ul>
                 
         </div>
@@ -48,35 +47,24 @@
 
     <!-- inventory -->
     <div id="inventory">
-
-        <!-- top -->
-        <div id="top">
-            <div id="start" class="masthead">
+        <div id="results">
+            <div id="vehicle-count">
                 <h1><span id="count">195</span> Vehicles Found</h1>
             </div>
+    
+            <div id="search">
+			    <ul>
+				    <li><a class="control" data-filter="all" href="#"><i class="far fa-ballot"></i></a></li>
+				    <li><a class="control" class="control" data-sort="default:asc" href="#"><i class="far fa-sort-amount-up-alt"></i></a></li>
+				    <li><a class="control" data-sort="default:desc" href="#"><i class="far fa-sort-amount-down-alt"></i></a></li>
+                    <li><input type="text" class="input" data-ref="input-search" placeholder="Vehicle Search"/></li>
 
-            <div id="center" class="masthead">
-                <div id="search">
-                    <input type="text" class="input" data-ref="input-search" placeholder="Search for Vehicles"/>
-                </div>    
-            </div>
-
-            <div id="end" class="masthead">
-                <ul>
-				    <li><a class="control" href="#"><i class="far fa-ballot"></i></a></li>
-				    <li><a class="control" data-sort="default:asc" href="#"><i class="far fa-sort-alpha-up-alt"></i></a></li>
-				    <li><a class="control" data-sort="default:desc" href="#"><i class="far fa-sort-alpha-down-alt"></i></a></li>
-				    <li><a class="control" data-sort="price:asc" href="#"><i class="far fa-sort-amount-up"></i></a></li>
-				    <li><a class="control" data-sort="price:desc" href="#"><i class="far fa-sort-amount-down-alt"></i></a></li>
                 </ul>
+
             </div>
-        
         </div>
-        <!-- top -->
-
-
         
-        <div id="inventory-wrapper" data-ref="container">
+        <div id="inventory-wrapper">
             <?php include("services/partials/vehicle-multi.php"); ?>        
         </div>
     </div>
@@ -100,10 +88,8 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="dist/js/all-min.js"></script>
 <!--<script src="dist/js/chatus-min.js"></script>-->
-<script src="dist/js/mix.it.up.js"></script>
 <script src="dist/js/reader-min.js"></script>
-<script src="dist/js/mix-min.js"></script>
-<!--<script src="dist/js/inventory-min.js"></script>-->
+
 <script type="text/javascript">
 $({ VehicleCount: 0 }).animate({
   VehicleCount: $('#count').text()
