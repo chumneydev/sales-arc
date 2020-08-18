@@ -1,6 +1,6 @@
 <!-- contact -->
 <div id="contact">
-    <p><i class="fas fa-phone-alt"></i> Call Us: 864-555-1234</p>
+    <p><i class="fas fa-phone-alt"></i> Call Us: 888-888-8888</p>
 </div>
 <!-- contact -->
 
@@ -19,7 +19,7 @@
             <li><a href="./hover-buttons.php">Hover Buttons</a></li>
             <li><a href="./insertion-buttons.php">Insertion Buttons</a></li>
             <li><a href="./database-email-campaigns.php">Database Email Campaigns</a></li>
-            <li><a href="./inventory.php">Inventory</a></li>
+            <li><a href="./scratch-off.php">Trade Evaluation</a></li>
         </ul>
     </div>
 </div>

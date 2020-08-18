@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+@import "variables";
+@import "header";
+
+body {
+    font-family: Helvetica;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: $lite-grey;
+}
+
+#wrapper {
+    font-family: Helvetica;
+    display: grid;
+    grid-template-areas:
+        "content contact"
+        "footer footer";
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    padding-bottom: 20px;
+}
+
+#content {
+    grid-area: content;
+    padding: 20px;
+
+    & video {
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 50%;
+    }
+
+    ul {
+        padding: 10px 40px;
+
+        & li {
+            padding: 5px 0;
+        }
+    }
+
+    p {
+        line-height: 1.5em;
+        padding: 10px;
+    }
+
+    .copy {
+        margin: 40px 0 0 0;
+        padding: 20px;
+        background: $white;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.22);
+
+    }
+
+}
+
+#demo {
+    grid-area: contact;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    background: $white;
+    margin-right: 20px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.22);
+
+    & h2 {
+        font-size: 32px;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    & #scratch {
+        position: relative;
+        display: inline-block;
+        font-size: 0;
+        /*margin-top: 100px;*/
+        /*margin-bottom: 600px;*/
+
+        & img {
+            width: 100%;
+            max-width: 916px;
+            height: auto;
+        }
+
+        & canvas {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            cursor: pointer;
+            will-change: transform;
+            transform: translate3d(0, 0, 0);
+            -ms-touch-action: none;
+            -webkit-touch-action: none;
+            -moz-touch-action: none;
+            touch-action: none;
+            transition: opacity 500ms ease-out 0ms, height 0ms linear 500ms;
+        }
+
+        &.revealed canvas {
+            opacity: 0;
+            height: 0;
+        }
+
+
+    }
+
+    & form {
+
+        & .column {
+            margin: 10px 0;
+        }
+
+        input {
+            font-size: $text-medium;
+            width: 100%;
+            display: block;
+            padding: 10px 0;
+            text-indent: 5px;
+            font-size: 14px;
+            border: 1px solid $grey-300;
+            transition: border-color .5s;
+
+            &:hover {
+                border-color: $black;
+            }
+
+            &:focus {
+                outline: none;
+                border: 1px solid $black;
+            }
+        }
+
+        .ca-select {
+            display: block;
+            font-size: $text-medium;
+            color: #777777;
+            line-height: 1.3;
+            padding: .6em 1.4em .5em .8em;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            margin: 0;
+            border: 1px solid $grey-300;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+            background-color: #fff;
+            background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23930a6f%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+            background-repeat: no-repeat, repeat;
+            background-position: right .7em top 50%, 0 0;
+            background-size: .65em auto, 100%;
+        }
+
+        .ca-select::-ms-expand {
+            display: none;
+        }
+
+        .ca-select:hover {
+            border-color: $black;
+        }
+
+        .ca-select:focus {
+            border-color: #aaa;
+            box-shadow: 0 0 1px 3px rgba($black, .7);
+            box-shadow: 0 0 0 3px -moz-mac-focusring;
+            color: #222;
+            outline: none;
+        }
+
+        .ca-select option {
+            font-weight: normal;
+        }
+
+        *[dir="rtl"] .ca-select,
+        :root:lang(ar) .ca-select,
+        :root:lang(iw) .ca-select {
+            background-position: left .7em top 50%, 0 0;
+            padding: .6em .8em .5em 1.4em;
+        }
+
+        .ca-select:disabled,
+        .ca-select[aria-disabled=true] {
+            color: graytext;
+            background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+                linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+        }
+
+        .ca-select:disabled:hover,
+        .ca-select[aria-disabled=true] {
+            border-color: #aaa;
+        }
+
+
+
+        button {
+            border: 0;
+            background: $black;
+            color: $white;
+            width: 100%;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 14px;
+            transition: background-color .5s;
+
+            &:hover {
+                background: $black;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+    #home {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "content content"
+            "contact contact"
+            "footer footer"
+        ;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+
+
+        #header {
+
+            h1 {
+                float: none;
+                text-align: center;
+            }
+
+            h2 {
+                float: none;
+                text-align: center;
+            }
+        }
+
+        #demo {
+            margin: 0 20px;
+
+            #scratch {
+
+                & img {
+                    width: 100%;
+                }
+            }
+        }
+
+
+        #content {
+
+            & video {
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width: 850px) {
+    #home {
+
+        #header {
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+    }
+}
