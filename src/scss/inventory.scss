@@ -133,10 +133,57 @@
 
 
                 & .vehicle-image {
+                    position: relative;
+
                     & img {
                         width: 100%;
                         display: block;
                     }
+
+                    
+                    & .vehicle-feature {
+                        margin: 15px 0 0 -7px;
+                        position: absolute;
+                        box-shadow: 0 1px 3px rgba(0,0,0,.2);
+                        padding: 5px 10px;
+                        z-index: 9;
+                        background: $black;
+                        color: $white;
+                        font-size: .7em;
+                        letter-spacing: 3px;
+
+                        &::before {
+                            display: block;
+                            width: 10px;
+                            height: 0;
+                            position: absolute;
+                            bottom: -7px;
+                            left: -10px;
+                            content: '';
+                            border-bottom: 7px solid transparent;
+                            border-right: 7px solid;
+                            color: darken($black, 20%);
+                        }
+
+                        &.special {
+                            background: $red;
+
+                            &::before {
+                                color: darken($red, 20%);
+                            }
+                        }
+
+                        &.new {
+                            background: $blue-400;
+
+                            &::before {
+                                color: darken($blue-400, 20%);
+                            }
+                        }
+
+                    }
+
+
                 }
 
                 & .title {
@@ -172,7 +219,7 @@
 
                         & li {
                             font-size: .8em;
-                            line-height: 1.3em;
+                            line-height: 1.8em;
                             list-style: none;
                         }
                     }
@@ -195,28 +242,53 @@
 
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
     //inventory wrapper
     
+    #pagination {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: $white;
+        margin: 20px 40px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
 
+        & ul {
+            padding: 0;
+
+            & li {
+                padding: 0 10px;
+                display: inline-block;
+                list-style-type: none;
+
+                & a {
+                    display: block;
+                    text-decoration: none;
+                    color: $black;
+                    background: $grey-200;
+                    padding: 10px 15px;
+                    transition: color .5s;
+                    transition: background-color .5s;
+
+                    &:hover {
+                        background: $black;
+                        color: $white;
+                    }
+                    
+                    &.active {
+                        background: $black;
+                        color: $white;
+                    }
+                    
+
+
+                }
+            }
+        }
+
+    }
 
 }
 

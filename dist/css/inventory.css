@@ -123,9 +123,54 @@ a.button:hover {
   padding: 0;
 }
 
+#inventory #inventory-wrapper .wrap .vehicle .vehicle-image {
+  position: relative;
+}
+
 #inventory #inventory-wrapper .wrap .vehicle .vehicle-image img {
   width: 100%;
   display: block;
+}
+
+#inventory #inventory-wrapper .wrap .vehicle .vehicle-image .vehicle-feature {
+  margin: 15px 0 0 -7px;
+  position: absolute;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+  z-index: 9;
+  background: #000000;
+  color: #FFFFFF;
+  font-size: .7em;
+  letter-spacing: 3px;
+}
+
+#inventory #inventory-wrapper .wrap .vehicle .vehicle-image .vehicle-feature::before {
+  display: block;
+  width: 10px;
+  height: 0;
+  position: absolute;
+  bottom: -7px;
+  left: -10px;
+  content: '';
+  border-bottom: 7px solid transparent;
+  border-right: 7px solid;
+  color: black;
+}
+
+#inventory #inventory-wrapper .wrap .vehicle .vehicle-image .vehicle-feature.special {
+  background: #EB2D1C;
+}
+
+#inventory #inventory-wrapper .wrap .vehicle .vehicle-image .vehicle-feature.special::before {
+  color: #94180d;
+}
+
+#inventory #inventory-wrapper .wrap .vehicle .vehicle-image .vehicle-feature.new {
+  background: #63B3ED;
+}
+
+#inventory #inventory-wrapper .wrap .vehicle .vehicle-image .vehicle-feature.new::before {
+  color: #1884d2;
 }
 
 #inventory #inventory-wrapper .wrap .vehicle .title {
@@ -163,7 +208,7 @@ a.button:hover {
 
 #inventory #inventory-wrapper .wrap .vehicle .description ul li {
   font-size: .8em;
-  line-height: 1.3em;
+  line-height: 1.8em;
   list-style: none;
 }
 
@@ -174,6 +219,47 @@ a.button:hover {
 #inventory #inventory-wrapper .wrap .vehicle .buttons ul.button-block li {
   list-style: none;
   padding: 5px 0;
+}
+
+#inventory #pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #FFFFFF;
+  margin: 20px 40px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#inventory #pagination ul {
+  padding: 0;
+}
+
+#inventory #pagination ul li {
+  padding: 0 10px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+#inventory #pagination ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  background: #EDF2F7;
+  padding: 10px 15px;
+  transition: color .5s;
+  transition: background-color .5s;
+}
+
+#inventory #pagination ul li a:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+#inventory #pagination ul li a.active {
+  background: #000000;
+  color: #FFFFFF;
 }
 
 @media (max-width: 2400px) {

@@ -9,7 +9,7 @@
 
         <!-- pricing -->
         <div class="pricing">
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt" ><p>$24,000</p></div>
         </div>
         <!-- pricing -->
@@ -18,14 +18,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -47,6 +43,9 @@
 <div class="wrap mix two" data-price="24000.00">
     <div class="vehicle">
         <div class="vehicle-image">
+            <div class="vehicle-feature special">
+                <p>Special Offer</p>
+            </div>
             <img src="https://via.placeholder.com/250x150/000/?text=Vehicle+Image" />
         </div>    
 
@@ -54,7 +53,7 @@
 
         <!-- pricing -->
         <div class="pricing">
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt" ><p>$24,000</p></div>
         </div>
         <!-- pricing -->
@@ -63,14 +62,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -99,7 +94,7 @@
 
         <!-- pricing -->
         <div class="pricing">
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt" ><p>$17,500</p></div>
         </div>
         <!-- pricing -->
@@ -108,14 +103,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -137,6 +128,7 @@
 <div class="wrap mix" data-price="26000.00">
     <div class="vehicle">
         <div class="vehicle-image">
+            
             <img src="https://via.placeholder.com/250x150/000/?text=Vehicle+Image" />
         </div>    
 
@@ -144,7 +136,7 @@
 
         <!-- pricing -->
         <div class="pricing" >
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt" ><p>$26,000</p></div>
         </div>
         <!-- pricing -->
@@ -153,14 +145,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -182,6 +170,10 @@
 <div class="wrap mix" data-price="18000.00">
     <div class="vehicle">
         <div class="vehicle-image">
+            <div class="vehicle-feature new">
+                <p>New In Stock</p>
+            </div>
+
             <img src="https://via.placeholder.com/250x150/000/?text=Vehicle+Image" />
         </div>    
 
@@ -189,7 +181,7 @@
 
         <!-- pricing -->
         <div class="pricing">
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt" ><p>$18,000</p></div>
         </div>
         <!-- pricing -->
@@ -198,14 +190,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -234,7 +222,7 @@
 
         <!-- pricing -->
         <div class="pricing">
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt" ><p>$32,000</p></div>
         </div>
         <!-- pricing -->
@@ -243,14 +231,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -279,7 +263,7 @@
 
         <!-- pricing -->
         <div class="pricing">
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt"><p>$24,000</p></div>
         </div>
         <!-- pricing -->
@@ -288,14 +272,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -317,6 +297,10 @@
 <div class="wrap mix" data-price="24000.00">
     <div class="vehicle">
         <div class="vehicle-image">
+            <div class="vehicle-feature special">
+                <p>Special Offer</p>
+            </div>
+
             <img src="https://via.placeholder.com/250x150/000/?text=Vehicle+Image" />
         </div>    
 
@@ -324,7 +308,7 @@
 
         <!-- pricing -->
         <div class="pricing">
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt"><p>$24,000</p></div>
         </div>
         <!-- pricing -->
@@ -333,14 +317,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -369,7 +349,7 @@
 
         <!-- pricing -->
         <div class="pricing">
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt"><p>$14,000</p></div>
         </div>
         <!-- pricing -->
@@ -378,14 +358,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -414,7 +390,7 @@
 
         <!-- pricing -->
         <div class="pricing">
-            <div class="price-text"><p>Sales Price</p></div>
+            <div class="price-text"><p><i class="far fa-dollar-sign"></i> Sales Price</p></div>
             <div class="price-amnt" ><p>$29,000</p></div>
         </div>
         <!-- pricing -->
@@ -423,14 +399,10 @@
         <div class="description">
             <h3>Features</h3>
             <ul>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
-                <li>Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->

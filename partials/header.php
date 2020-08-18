@@ -7,7 +7,7 @@
 <!-- header -->
 <div id="header" class="flex">
     <div id="logo">
-        <img src="dist/images/logo.png" />
+        <a href="./"><img src="dist/images/logo.png" /></a>
     </div>
 
     <div id="nav">
