@@ -6,8 +6,10 @@
     <title>ABC Motors Sales</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="dist/css/home.css">
-    <link rel="stylesheet" href="dist/css/inventory.css">
+    <link rel="stylesheet" href="dist/css/slick-theme.css">
+    <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
 
@@ -19,57 +21,85 @@
    <?php include("partials/header.php"); ?>
 
 
+    <!-- main -->
+    <div id="main">
+        
+        <!-- search -->
+        <div id="search">
+            <form>
+                <div class="item">
+                    <select class="ca-select" name="make">
+                        <option>Category</option>
+                        <option value="fair">Fair</option>
+                        <option value="good">Good</option>
+                        <option value="excellent">Excellent</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <select class="ca-select" name="make">
+                        <option>Year</option>
+                        <option value="fair">Fair</option>
+                        <option value="good">Good</option>
+                        <option value="excellent">Excellent</option>
+                    </select>
+                </div>
 
-    <!-- inventory -->
-    <div id="inventory">
+                <div class="item">
+                    <select class="ca-select" name="make">
+                        <option>Make</option>
+                        <option value="fair">Fair</option>
+                        <option value="good">Good</option>
+                        <option value="excellent">Excellent</option>
+                    </select>
+                </div>
 
-        <!-- top -->
-        <div id="top">
-            <div id="start" class="masthead">
-                <h1><span id="count">195</span> Vehicles Found</h1>
+                <div class="item">
+                    <select class="ca-select" name="make">
+                        <option>Model</option>
+                        <option value="fair">Fair</option>
+                        <option value="good">Good</option>
+                        <option value="excellent">Excellent</option>
+                    </select>
+                </div>
+
+                <div class="item">
+                    <button>Search Inventory</button>
+                </div>
+            </form>
+
+
+        </div>
+        <!-- search -->
+
+
+
+        <!-- slides -->
+        <div id="slides">
+            <div class="inner">
+            <div><img src="https://via.placeholder.com/1200x350/000/?text=Vehicle+Image" /></div>
+            <div><img src="https://via.placeholder.com/1200x350/000/?text=Vehicle+Image" /></div>
+            <div><img src="https://via.placeholder.com/1200x350/000/?text=Vehicle+Image" /></div>
+            <div><img src="https://via.placeholder.com/1200x350/000/?text=Vehicle+Image" /></div>
+
+
             </div>
+        </div>
+        <!-- slides -->
 
-            <div id="center" class="masthead">
-                <div id="search">
-                    <input type="text" class="input" data-ref="input-search" placeholder="Search for Vehicles"/>
-                </div>    
-            </div>
-
-            <div id="end" class="masthead">
-                <ul>
-				    <li><a class="control" href="#"><i class="far fa-ballot"></i></a></li>
-				    <li><a class="control" data-sort="default:asc" href="#"><i class="far fa-sort-alpha-up-alt"></i></a></li>
-				    <li><a class="control" data-sort="default:desc" href="#"><i class="far fa-sort-alpha-down"></i></a></li>
-				    <li><a class="control" data-sort="price:asc" href="#"><i class="far fa-sort-amount-up"></i></a></li>
-				    <li><a class="control" data-sort="price:desc" href="#"><i class="far fa-sort-amount-down-alt"></i></a></li>
-                </ul>
-            </div>
+        
+        <!-- featured -->
+        <div id="featured">
         
         </div>
-        <!-- top -->
+        <!-- featured -->
 
 
-        
-        <div id="inventory-wrapper" data-ref="container">
-            <?php include("services/partials/vehicle-multi.php"); ?>        
-        </div>
 
-        <div id="pagination">
-            <ul>
-                <li><a href="#" class="active">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">6</a></li>
-                <li><a href="#">7</a></li>
-                <li><a href="#">8</a></li>
-                <li><a href="#">9</a></li>
-                <li><a href="#">10</a></li>
-                <li><a href="#">Next</a></li>
-            </ul>
     </div>
-    <!-- inventory -->
+    <!-- main -->
+
+
+
 
 </div>
 <!-- app -->
@@ -87,25 +117,20 @@
 
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="dist/js/all-min.js"></script>
 <!--<script src="dist/js/chatus-min.js"></script>-->
-<script src="dist/js/mix.it.up.js"></script>
-<script src="dist/js/mix-min.js"></script>
-
-<script src="dist/js/reader-min.js"></script>
 <!--<script src="dist/js/inventory-min.js"></script>-->
 
 
 <script type="text/javascript">
-    $({ VehicleCount: 0 }).animate({
-            VehicleCount: $('#count').text()
-        }, {
-            duration: 1000,
-            easing: 'swing',
-            step: function() {
-                $('#count').text(Math.ceil(this.VehicleCount));
-            }
-        });
+    $('.inner').slick({
+        infinite: true,
+        dots: false,
+        slidesToShow: 1,
+        arrows: true,
+        autoplay: true
+    });
 
 </script
 

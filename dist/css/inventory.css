@@ -166,11 +166,11 @@ a.button:hover {
 }
 
 #inventory #inventory-wrapper .wrap .vehicle .vehicle-image .vehicle-feature.new {
-  background: #63B3ED;
+  background: #48BB78;
 }
 
 #inventory #inventory-wrapper .wrap .vehicle .vehicle-image .vehicle-feature.new::before {
-  color: #1884d2;
+  color: #2b7249;
 }
 
 #inventory #inventory-wrapper .wrap .vehicle .title {
@@ -207,7 +207,7 @@ a.button:hover {
 }
 
 #inventory #inventory-wrapper .wrap .vehicle .description ul li {
-  font-size: .8em;
+  font-size: .72em;
   line-height: 1.8em;
   list-style: none;
 }

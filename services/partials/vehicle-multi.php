@@ -21,7 +21,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -65,7 +65,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -106,7 +106,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -148,7 +148,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -193,7 +193,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -234,7 +234,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -275,7 +275,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -320,7 +320,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -361,7 +361,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->
@@ -402,7 +402,7 @@
                 <li><i class="fal fa-tachometer-alt"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fal fa-satellite"></i> Inceptos Vulputate Magna</li>
                 <li><i class="fab fa-bluetooth-b"></i> Inceptos Vulputate Magna</li>
-                <li><i class="fal fa-wifi"></i> Inceptos Vulputate Magna</li>
+                <li><i class="fab fa-apple"></i> Inceptos Vulputate Magna</li>
             </ul>
         </div>
         <!-- description -->

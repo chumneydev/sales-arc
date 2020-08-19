@@ -1,0 +1,138 @@
+@import "variables";
+@import "buttons";
+@import "forms";
+
+* {
+    box-sizing: border-box;
+}
+
+#search {
+    background: $white;
+    margin: 20px 40px;
+    padding: 10px;
+    min-height: 10px;
+    width: 100%;
+
+    & form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1 1 auto;
+
+        & .item {
+            padding: 0 20px;
+
+            .ca-select {
+                padding: .6em 3.4em .5em .8em;
+            }
+
+            & button {
+                background: $red;
+                color: $white;
+                transition: background-color .5s;
+                border: none;
+                padding: .6em 20px;
+
+                &:hover {
+                    background: darken($red, 20%);
+                }
+            }
+        }
+    }
+
+
+
+}
+
+#slides {
+    margin: 20px auto;
+    min-height: 10px;
+    width: 100%;
+    padding: 0 40px;
+
+    .inner {
+        padding: 10px;
+        background: $white;
+    }
+
+    & img {
+        width: 100%;
+    }
+
+    & .inner {
+        overflow: hidden;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 2400px) {
+
+    #inventory {
+        & #inventory-wrapper {
+            & .wrap {
+                flex: 1 0 20%;
+                max-width: 20%;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1185px) {
+
+    #inventory {
+        & #inventory-wrapper {
+            & .wrap {
+                flex: 1 0 25%;
+                max-width: 25%;
+            }
+        }
+    }
+
+}
+@media (max-width: 985px) {
+
+    #inventory {
+        & #inventory-wrapper {
+            & .wrap {
+                flex: 1 0 33.3333%;
+                max-width: 33.3333%;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 790px) {
+
+    #inventory {
+        & #inventory-wrapper {
+            & .wrap {
+                flex: 1 0 50%;
+                max-width: 50%;
+            }
+        }
+    }
+
+}
+@media (max-width: 600px) {
+
+    #inventory {
+        & #inventory-wrapper {
+            & .wrap {
+                flex: 1 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+
+}
