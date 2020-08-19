@@ -13,56 +13,67 @@
 }
 
 #header {
-  display: flex;
-  flex-wrap: wrap;
   background: #000000;
-  padding: 20px;
   color: #FFFFFF;
 }
 
-#header #logo {
+#header .container {
+  display: flex;
+  flex-wrap: wrap;
+  background: #000000;
+  justify-content: space-between;
+  align-content: center;
+  flex: 1 0 auto;
+  margin: 0 40px;
+  padding: 10px;
+}
+
+#header .container #logo {
   width: 15%;
   padding: 0 0 0 20px;
   align-self: left;
 }
 
-#header #logo img {
+#header .container #logo img {
   display: block;
   align-self: center;
   width: 150px;
 }
 
-#header #nav {
+#header .container #nav {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   width: 75%;
   align-self: center;
 }
 
-#header #nav ul li {
-  padding: 0 10px;
-  display: inline-block;
+#header .container #nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: row;
+  justify-content: space-between;
 }
 
-#header #nav ul li a {
+#header .container #nav ul li {
+  list-style: none;
+}
+
+#header .container #nav ul li > ul {
+  display: none;
+  flex-direction: column;
+}
+
+#header .container #nav ul li:hover > ul {
+  display: flex;
+  position: absolute;
+}
+
+#header .container #nav ul li a {
   display: block;
   color: #FFFFFF;
   text-decoration: none;
-}
-
-#header #nav ul li a:hover {
-  color: #EB2D1C;
-}
-
-body {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  background: #C8C8C8;
-}
-
-#home {
-  font-family: Helvetica;
+  padding: 15px;
 }
 
 #main {

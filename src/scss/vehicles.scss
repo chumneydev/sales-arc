@@ -1,0 +1,43 @@
+@import "variables";
+@import "header";
+
+
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: $lite-grey;
+}
+
+#home {
+    font-family: Helvetica;
+
+}
+
+#banner {
+    display: flex;
+    flex: 1 0 auto;
+    background: $white;
+    min-height: 20px;
+    margin: 20px 40px;
+    padding: 10px;
+}
+
+
+#vehicle {
+    display: flex;
+    flex: 1 0 auto;
+    background: $white;
+    min-height: 20px;
+    margin: 20px 40px;
+    padding: 10px;
+}
+
+#similar {
+    display: flex;
+    flex: 1 0 auto;
+    background: $white;
+    min-height: 20px;
+    margin: 20px 40px;
+    padding: 10px;
+}
