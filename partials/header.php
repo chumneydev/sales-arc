@@ -18,8 +18,8 @@
                 <li>
                     <a href="#">Modals +</a>
                         <ul>
-                            <li><a href="./services/modals/entrance-modal.php">Entrance Modal</a>
-                            <li><a href="./exit-modal.php">Exit Modal</a>
+                            <li><a href="./services/modals/modal.php?category=entrance">Entrance Modal</a>
+                            <li><a href="./modal.php?category=exit">Exit Modal</a>
                             <li><a href="./scratch-off-modal.php">Scratch-off Modal</a>
                             <li><a href="./video-modal.php">Video Modal</a>
                         </ul>    

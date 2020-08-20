@@ -23,7 +23,12 @@
         
         <!-- banner -->
         <div id="banner">
-
+            <ul>
+                <li><a href="#">New Inventory</a></li>
+                <li><a href="#">Year</a></li>
+                <li><a href="#">Make</a></li>
+                <li><a href="#">Model</a></li>
+            </ul>
 
         </div>
         <!-- banner -->
@@ -36,14 +41,60 @@
             <!-- left -->
             <div id="left">
                 <div id="top">
-                    <div class="vehicle-image"></div>
-                    <div class="vehicle-details"></div>
+                    <div class="vehicle-image">
+                        <img src="https://via.placeholder.com/750x450/000/?text=Vehicle+Image" />
+                    </div>
                 </div>    
             </div>    
             <!-- left -->
 
             <!-- right -->
             <div id="right">
+                <h1 class="vehicle-title">Year Make Model</h1>
+                
+                <!-- pricing -->
+                <div class="pricing">
+                    <div class="price-text"><p>Sales Price</p></div>
+                    <div class="price-amnt"><p>$24,000</p></div>
+                </div>
+                <!-- pricing -->
+
+                <!-- vehicle details -->
+                <div class="vehicle-details">
+                    
+                    <ul>
+                        <li>
+                            <div class="label">Exterior</div>
+                            <div class="description">Red</div>
+                        </li>
+                        <li>
+                            <div class="label">Transmission</div>
+                            <div class="description">Automatic</div>
+                        </li>
+                        <li>
+                            <div class="label">Interior</div>
+                            <div class="description">Tan</div>
+                        </li>
+                        <li>
+                            <div class="label">MPG</div>
+                            <div class="description">32 City / 44 Hwy</div>
+                        </li>
+                    </ul>        
+
+                </div>
+                <!-- vehicle details -->
+
+                <!-- buttons -->
+                <div class="buttons">
+                    <ul class="button-block">
+                        <li class="button-item"><a href="#" class="button">Get Pre-Approved</a></li>
+                        <li class="button-item"><a href="#" class="button">Schedule Test Drive</a></li>
+                        <li class="button-item"><a href="#" class="button">Reserve This Vehicle</a></li>
+                    </ul>
+                </div>
+                <!-- buttons -->
+            
+            
             </div>    
             <!-- right -->
 
@@ -54,7 +105,9 @@
         
         <!-- similar -->
         <div id="similar">
-        
+            <div class="container">
+                <?php include("services/partials/vehicle-four.php"); ?>        
+            </div>
         </div>
         <!-- similar -->
 
