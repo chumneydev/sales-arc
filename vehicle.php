@@ -105,9 +105,7 @@
         
         <!-- similar -->
         <div id="similar">
-            <div class="container">
-                <?php include("services/partials/vehicle-four.php"); ?>        
-            </div>
+            <?php include("services/partials/vehicle-four.php"); ?>        
         </div>
         <!-- similar -->
 
@@ -137,6 +135,7 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="dist/js/all-min.js"></script>
+<script src="dist/js/buttons-min.js"></script>
 <!--<script src="dist/js/chatus-min.js"></script>-->
 <!--<script src="dist/js/inventory-min.js"></script>-->
 

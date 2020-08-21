@@ -114,6 +114,7 @@ body {
 
     .vehicle-details {
         padding: 5px 10px;
+        margin: 0 10px;
         background: $grey-200;
 
         & ul {
@@ -130,6 +131,10 @@ body {
 
                 & .label {
                     font-weight: bold;
+                    &::after {
+                        content: ":";
+                        font-weight: bold;
+                    }
                 }
                 & .description {
                 }
@@ -138,11 +143,7 @@ body {
         }
     }
 
-
-
-}
-
-.buttons {
+& .buttons {
     padding: 10px;
 
     & ul.button-block {
@@ -175,176 +176,191 @@ body {
 
 
 
-#similar {
-    display: flex;
-    flex: 1 0 auto;
-    background: $white;
-    min-height: 20px;
-    margin: 20px 40px;
-    padding: 10px 10px;
 
-    & .container {
-        display: flex;
-        flex: 1 1 auto;
-        flex-wrap: wrap;
-
-
-    & .wrap {
-        flex: 1 0 25%;
-        max-width: 25%;
-        padding: 10px 0;
-        text-decoration: none;
-
-        & .vehicle {
-            color: $black;
-            background: $white;
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-            transition: box-shadow .25s ease;
-
-            &:hover {
-                box-shadow: 0 5px 15px -4px rgba(0, 0, 0, .5);
-            }
-
-            & p {
-                margin: 0;
-                padding: 0;
-            }
-
-            & .vehicle-image {
-                position: relative;
-
-                & img {
-                    width: 100%;
-                    display: block;
-                }
-
-                & .vehicle-feature {
-                    margin: 15px 0 0 -7px;
-                    position: absolute;
-                    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
-                    padding: 5px 10px;
-                    z-index: 9;
-                    background: $black;
-                    color: $white;
-                    font-size: .7em;
-                    letter-spacing: 3px;
-
-                    &::before {
-                        display: block;
-                        width: 10px;
-                        height: 0;
-                        position: absolute;
-                        bottom: -7px;
-                        left: -10px;
-                        content: '';
-                        border-bottom: 7px solid transparent;
-                        border-right: 7px solid;
-                        color: darken($black, 20%);
-                    }
-
-                    &.special {
-                        background: $red;
-
-                        &::before {
-                            color: darken($red, 20%);
-                        }
-                    }
-
-                    &.new {
-                        background: $green-500;
-
-                        &::before {
-                            color: darken($green-500, 20%);
-                        }
-                    }
-
-                }
-            }
-
-            & .title {
-                color: $black;
-                font-size: 1.3em;
-            }
-
-            & .pricing {
-                display: flex;
-                justify-content: space-between;
-                font-size: 1em;
-                padding: 5px 0;
-                border-bottom: 1px solid $grey-400;
-
-                & .price-text {
-                    font-size: .8em;
-                }
-
-                & .price-amnt {
-                    font-size: 1em;
-                    font-weight: bold;
-                    color: $red;
-                }
-            }
-
-            & .description {
-                padding: 0;
-
-                & ul {
-                    column-count: 2;
-                    margin: 0;
-                    padding: 0;
-
-                    & li {
-                        font-size: .72em;
-                        line-height: 1.8em;
-                        list-style: none;
-                    }
-                }
-            }
-
-            & .buttons {
-                & ul.button-block {
-                    padding: 0;
-
-                    & li {
-                        list-style: none;
-                        padding: 5px 0;
-                    }
-                }
-            }
-
-        }
-        // vehicle
-        }
-        // wrap
-    }
 
 }
 
+
+
+
+#similar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 35px;
+    justify-content: space-between;
+    background: $white;
+   
+     & .wrap {
+         flex: 1 0 24%;
+         max-width: 24%;
+         //margin-left: -10px;
+         //margin-right: -10px;
+         padding: 10px 0;
+         text-decoration: none;
+
+         & .vehicle {
+             color: $black;
+             background: $white;
+             padding: 10px 10px;
+             display: flex;
+             flex-direction: column;
+             transition: box-shadow .25s ease;
+
+             &:hover {
+                 box-shadow: 0 5px 15px -4px rgba(0, 0, 0, .5);
+             }
+
+             & p {
+                 margin: 0;
+                 padding: 0;
+             }
+
+
+             & .vehicle-image {
+                 position: relative;
+
+                 & img {
+                     width: 100%;
+                     display: block;
+                 }
+
+
+                 & .vehicle-feature {
+                     margin: 15px 0 0 -7px;
+                     position: absolute;
+                     box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+                     padding: 5px 10px;
+                     z-index: 9;
+                     background: $black;
+                     color: $white;
+                     font-size: .7em;
+                     letter-spacing: 3px;
+
+                     &::before {
+                         display: block;
+                         width: 10px;
+                         height: 0;
+                         position: absolute;
+                         bottom: -7px;
+                         left: -10px;
+                         content: '';
+                         border-bottom: 7px solid transparent;
+                         border-right: 7px solid;
+                         color: darken($black, 20%);
+                     }
+
+                     &.special {
+                         background: $red;
+
+                         &::before {
+                             color: darken($red, 20%);
+                         }
+                     }
+
+                     &.new {
+                         background: $green-500;
+
+                         &::before {
+                             color: darken($green-500, 20%);
+                         }
+                     }
+
+                 }
+
+
+             }
+
+             & .title {
+                 color: $black;
+                 font-size: 1.3em;
+             }
+
+             & .pricing {
+                 display: flex;
+                 justify-content: space-between;
+                 font-size: 1em;
+                 padding: 5px 0;
+                 border-bottom: 1px solid $grey-400;
+
+                 & .price-text {
+                     font-size: .8em;
+                 }
+
+                 & .price-amnt {
+                     font-size: 1em;
+                     font-weight: bold;
+                     color: $red;
+                 }
+             }
+
+             & .description {
+                 padding: 0;
+
+                 & ul {
+                     column-count: 2;
+                     margin: 0;
+                     padding: 0;
+
+                     & li {
+                         font-size: .72em;
+                         line-height: 1.8em;
+                         list-style: none;
+                     }
+                 }
+             }
+
+             & .buttons {
+                 & ul.button-block {
+                     padding: 0;
+
+                     & li {
+                         list-style: none;
+                         padding: 5px 0;
+                     }
+                 }
+             }
+
+         }
+
+         // vehicle
+
+
+     }
+
+     // wrap
+
+        // wrap
+    
+}
+
+
+
+
+
+
+
+
+// Mediaqueries
 
 
 @media (max-width: 1400px) {
 
     #similar {
-        & .container {
             & .wrap {
                 flex: 1 0 25%;
                 max-width: 25%;
             }
         }
-    }
 
 }
 @media (max-width: 1185px) {
 
     #similar {
-        & .container {
             & .wrap {
                 flex: 1 0 25%;
                 max-width: 25%;
             }
         }
-    }
 
 }
 
@@ -352,12 +368,10 @@ body {
 
     
     #similar {
-        & .container {
             & .wrap {
                 flex: 1 0 33.3333%;
                 max-width: 33.3333%;
             }
-        }
     }
 
 }
@@ -391,13 +405,11 @@ body {
     }
 
     #similar {
-        & .container {
             & .wrap {
                 flex: 1 0 50%;
                 max-width: 50%;
             }
         }
-    }
 
 }
 
@@ -416,12 +428,10 @@ body {
 
 
     #similar {
-        & .container {
             & .wrap {
                 flex: 1 0 100%;
                 max-width: 100%;
             }
         }
-    }
 
 }

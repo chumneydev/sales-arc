@@ -3,7 +3,17 @@
 @import "header";
 
 
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: $lite-grey;
+}
 
+#home {
+    font-family: Helvetica;
+
+}
 
 
 #main {
