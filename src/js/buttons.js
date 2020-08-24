@@ -19,8 +19,28 @@ $.when(
 
 ).then(function () {
     
-    
-    buttonsPrograms();
+  
+    if (window.location.search.indexOf('caoffer=exclusive') > -1) {
+        buttonsPrograms();
+        console.log('Buttons: Program Specific Buttons')
+
+    } else if (window.location.search.indexOf('button=hover') > -1) {
+        buttonsPrograms();
+        buttonsHover();
+        console.log('Buttons: Hover Buttons')
+    } else if (window.location.search.indexOf('button=insertion') > -1) {
+        buttonsPrograms();
+        buttonsInsertion();
+        console.log('Buttons: Insertion Buttons')
+
+    }
+    else {
+        buttonsPrograms();
+        console.log('Location search is not working.')
+
+    }
+
+
 
 
 
@@ -51,6 +71,12 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 // Function that creates insertion buttons
 function buttonsInsertion() {
+    $('.button-block').each(function () {
+        var createButton = $('<li>').attr('class', 'button-item');
+        var content = '<a href="#" class="button insertion">Insertion Button</a></li>';
+        $(this).append(createButton);
+        createButton.html(content)
+    });
 
 }
 
@@ -66,7 +92,7 @@ function buttonsPrograms() {
         // loop through button containers and append button
         $('.button-block').each(function () {
             var createButton = $('<li>').attr('class', 'button-item');
-            var content = '<a href="#" class="button exclusive">Exclusive Back to School Offer</a></li>';
+            var content = '<a href="#" class="button exclusive">Exclusive Offer</a></li>';
             $(this).append(createButton);
             createButton.html(content)
         });

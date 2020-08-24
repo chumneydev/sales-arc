@@ -9,12 +9,22 @@ a {
         display: block;
         text-align: center;
         text-decoration: none;
-        padding: 10px;
+        padding: 10px 0;
 
         &:hover {
             background: darken($red, 10%)
         }
 
     }
+
+    &.insertion {
+        background: $blue-400;
+
+        &:hover {
+            background: darken($blue-400, 10%)
+        }
+    }
+
+
 
 }

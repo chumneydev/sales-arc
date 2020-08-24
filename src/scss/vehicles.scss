@@ -1,5 +1,6 @@
 @import "variables";
 @import "header";
+@import "buttons";
 
 
 body {
@@ -153,22 +154,7 @@ body {
             list-style: none;
             padding: 5px 0;
 
-            a {
-
-                &.button {
-                    width: 100%;
-                    color: white;
-                    background: $red;
-                    display: block;
-                    text-align: center;
-                    text-decoration: none;
-                    padding: 10px 0;
-
-                    &:hover {
-                        background: darken($red, 10%)
-                    }
-                }
-            }
+            
 
         }
     }
@@ -316,6 +302,10 @@ body {
                      & li {
                          list-style: none;
                          padding: 5px 0;
+
+                       
+
+
                      }
                  }
              }

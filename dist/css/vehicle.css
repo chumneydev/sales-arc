@@ -5,11 +5,19 @@ a.button {
   display: block;
   text-align: center;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 a.button:hover {
   background: #c32011;
+}
+
+a.insertion {
+  background: #63B3ED;
+}
+
+a.insertion:hover {
+  background: #359de8;
 }
 
 * {
