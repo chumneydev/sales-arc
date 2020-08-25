@@ -1,0 +1,109 @@
+body {
+  font-family: Helvetica, Arial;
+}
+
+#ca-modal {
+
+    & img {
+        display: block;
+        width: 100%;
+    }
+
+#cascratch {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    /*margin-top: 100px;*/
+    /*margin-bottom: 600px;*/
+}
+
+#cascratch img {
+    width: 100%;
+    //max-width: 916px;
+    height: auto;
+}
+
+#cascratch canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+    -ms-touch-action: none;
+    -webkit-touch-action: none;
+    -moz-touch-action: none;
+    touch-action: none;
+
+    transition: opacity 500ms ease-out 0ms, height 0ms linear 500ms;
+}
+
+
+
+#cascratch.revealed canvas {
+    opacity: 0;
+    height: 0;
+}
+
+
+
+
+
+}
+
+
+#ca-modal form {
+  width: 100%;
+
+    & label {
+        display: block;
+        padding: 0 0 5px 0;
+    }
+
+    & input {
+        width: 100%;
+        padding: 5px 10px;
+        border-radius: 0;
+        border: 1px solid #CBD5E0;
+        font-size: 14px;
+        display: block;
+    }
+
+    & textarea {
+        width: 100%;
+        padding: 5px 10px;
+        border-radius: 0;
+        border: 1px solid #CBD5E0;
+        font-size: 14px;
+        display: block;
+    }
+
+    & #ca-submit {
+        color: #FFFFFF;
+        font-size: 14px;
+        background: #d0060e;
+        border: none;
+        font-weight: bold;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 100%;
+
+        &:hover {
+            background: #b8040b;
+        }
+
+    }
+
+
+    & .insp-row {
+        padding: 10px 0;
+    }
+
+
+
+}
+

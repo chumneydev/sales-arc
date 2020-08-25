@@ -136,6 +136,7 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="dist/js/all-min.js"></script>
 <script src="dist/js/buttons-min.js"></script>
+<script src="dist/js/modals-min.js"></script>
 <!--<script src="dist/js/chatus-min.js"></script>-->
 <!--<script src="dist/js/inventory-min.js"></script>-->
 

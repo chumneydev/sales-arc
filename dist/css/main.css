@@ -152,6 +152,14 @@ body {
   overflow: hidden;
 }
 
+#copy {
+  background: #FFFFFF;
+  margin: 20px 40px;
+  padding: 10px;
+  min-height: 10px;
+  width: 100%;
+}
+
 @media (max-width: 2400px) {
   #inventory #inventory-wrapper .wrap {
     flex: 1 0 20%;

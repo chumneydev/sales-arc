@@ -90,9 +90,8 @@
 <script src="dist/js/all-min.js"></script>
 <!--<script src="dist/js/chatus-min.js"></script>-->
 <script src="dist/js/mix.it.up.js"></script>
-<script src="dist/js/mix-min.js"></script>
+<script src="dist/js/modals-min.js"></script>
 
-<script src="dist/js/reader-min.js"></script>
 <!--<script src="dist/js/inventory-min.js"></script>-->
 
 
@@ -106,6 +105,12 @@
                 $('#count').text(Math.ceil(this.VehicleCount));
             }
         });
+
+        
+
+
+
+        
 
 </script
 

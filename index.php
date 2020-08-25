@@ -93,6 +93,15 @@
         </div>
         <!-- featured -->
 
+        <!-- copy -->
+        <div id="copy">
+            <h1>Ullamcorper Ornare Commodo</h1>
+            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor.</p>
+        </div>
+        <!-- copy -->
+
 
 
     </div>
@@ -119,8 +128,9 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="dist/js/all-min.js"></script>
-<!--<script src="dist/js/chatus-min.js"></script>-->
+<script src="dist/js/chatus-min.js"></script>
 <!--<script src="dist/js/inventory-min.js"></script>-->
+
 
 
 <script type="text/javascript">
