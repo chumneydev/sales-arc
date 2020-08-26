@@ -20,7 +20,7 @@ $.when(
 ).then(function () {
     
   
-    if (window.location.search.indexOf('caoffer=exclusive') > -1) {
+    if (window.location.search.indexOf('button=exclusive') > -1) {
         buttonsPrograms();
         console.log('Buttons: Program Specific Buttons')
 
@@ -98,7 +98,7 @@ function buttonsPrograms() {
         });
 
     };
-
+ 
     var caCampaign = getUrlParameter('caoffer');
     console.log(caCampaign);
 
@@ -111,6 +111,7 @@ function buttonsPrograms() {
 
     if (Cookies.get('cacookie')) {
         createButton();
+        console.log('created')
     }
 
 

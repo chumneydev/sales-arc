@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="dist/css/vehicles.css">
+    <link rel="stylesheet" href="dist/css/url-switcher.css">
 </head>
 <body>
 
@@ -123,6 +124,7 @@
 
 
 
+   <?php include("partials/urls.php"); ?>
 
 
 
@@ -137,6 +139,7 @@
 <script src="dist/js/all-min.js"></script>
 <script src="dist/js/buttons-min.js"></script>
 <script src="dist/js/modals-min.js"></script>
+<script src="dist/js/url-switcher.js"></script>
 <!--<script src="dist/js/chatus-min.js"></script>-->
 <!--<script src="dist/js/inventory-min.js"></script>-->
 

@@ -31,17 +31,21 @@ $(document).ready(function () {
 
             $.exitIntent('enable');
             $(document).bind('exitintent', function () {
-                buildModal();
+                buildExitModal();
             });
             console.log('Modals: Exit')
 
         } else if (window.location.search.indexOf('modal=entrance') > -1) {
-            buildModal();
+            buildEntranceModal();
             console.log('Modals: Entrance')
 
         } else if (window.location.search.indexOf('modal=scratch') > -1) {
             buildScratchModal();
             console.log('Modals: Scratch-off')
+
+        } else if (window.location.search.indexOf('modal=video') > -1) {
+            buildVideoModal();
+            console.log('Modals: Video')
 
         }
 
@@ -86,7 +90,7 @@ $(document).ready(function () {
     }
 
     // Function that creates modal
-    function buildModal() {
+    function buildExitModal() {
         var modal = `
         <div id="ca-modal" class="iziModal">
             <form role="form" method="post">
@@ -120,8 +124,95 @@ $(document).ready(function () {
             radius: 5,
             padding: 20,
             closeButton: true,
-            title: 'Chumney & Associates Modal',
-            headerColor: '#d0060e',
+            title: 'Chumney & Associates: Exit Modal',
+            headerColor: '#EB2D1C',
+            autoOpen: 1, 
+            /* bodyOverflow: Forcing overflow hidden in the document when opening the modal, closing the modal, overflow will be restored. */
+        });
+    }
+    // Function that creates modal
+    function buildEntranceModal() {
+        var modal = `
+        <div id="ca-modal" class="iziModal">
+            <form role="form" method="post">
+                <div class="insp-row">
+                    <label for="firstname"> Full Name</label>
+                    <input type="text" name="fullname" id="fullname" required placeholder="Full Name">
+                </div>
+
+                <div class="insp-row">
+                    <label for="email"> Email Address</label>
+                    <input type="text" name="email" id="email" required placeholder="Email Address">
+                </div>
+                <div class="insp-row">
+                    <label for="phone"> Phone Number</label>
+                    <input type="text" name="phone" id="phone" required placeholder="Phone Numbers">
+                </div>
+                <div class="insp-row">
+                    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your Question">
+                    </textarea>
+                </div>
+
+                <div class="insp-row">
+                    <button type="submit" id="ca-submit" name="submit">Get More Information</button>
+                </div>
+            </form>
+        </div>`;
+
+        $('body').append(modal);
+
+        $("#ca-modal").iziModal({
+            radius: 5,
+            padding: 20,
+            closeButton: true,
+            title: 'Chumney & Associates: Entrance Modal',
+            headerColor: '#EB2D1C',
+            autoOpen: 1, 
+            /* bodyOverflow: Forcing overflow hidden in the document when opening the modal, closing the modal, overflow will be restored. */
+        });
+    }
+
+    // Function that creates modal
+    function buildVideoModal() {
+        var modal = `
+
+        <div id="ca-modal-video" class="iziModal">
+            <div id="video">
+                <video controls autoplay="autoplay" playsinline="playsinline">
+                    <source src="./dist/video/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>    
+
+            <form role="form" method="post">
+                <div class="insp-row">
+                    <label for="firstname"> Full Name</label>
+                    <input type="text" name="fullname" id="fullname" required placeholder="Full Name">
+                </div>
+
+                <div class="insp-row">
+                    <label for="email"> Email Address</label>
+                    <input type="text" name="email" id="email" required placeholder="Email Address">
+                </div>
+                <div class="insp-row">
+                    <label for="phone"> Phone Number</label>
+                    <input type="text" name="phone" id="phone" required placeholder="Phone Numbers">
+                </div>
+
+                <div class="insp-row">
+                    <button type="submit" id="ca-submit" name="submit">Get More Information</button>
+                </div>
+            </form>
+        </div>`;
+
+        $('body').append(modal);
+
+        $("#ca-modal-video").iziModal({
+            radius: 5,
+            padding: 20,
+            closeButton: true,
+            title: 'Chumney & Associates: Video Modal',
+            headerColor: '#EB2D1C',
             autoOpen: 1, 
             /* bodyOverflow: Forcing overflow hidden in the document when opening the modal, closing the modal, overflow will be restored. */
         });
@@ -176,8 +267,8 @@ $(document).ready(function () {
             radius: 5,
             padding: 20,
             closeButton: true,
-            title: 'Chumney & Associates Modal',
-            headerColor: '#d0060e',
+            title: 'Chumney & Associates: Scratch-off Modal',
+            headerColor: '#EB2D1C',
             autoOpen: 1,
             /* bodyOverflow: Forcing overflow hidden in the document when opening the modal, closing the modal, overflow will be restored. */
         });

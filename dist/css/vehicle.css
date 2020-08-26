@@ -20,6 +20,14 @@ a.insertion:hover {
   background: #359de8;
 }
 
+a.exclusive {
+  background: #48BB78;
+}
+
+a.exclusive:hover {
+  background: #389860;
+}
+
 * {
   box-sizing: border-box;
 }

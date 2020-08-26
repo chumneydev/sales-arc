@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="dist/css/home.css">
     <link rel="stylesheet" href="dist/css/inventory.css">
+    <link rel="stylesheet" href="dist/css/url-switcher.css">
 </head>
 <body>
 
@@ -78,6 +79,7 @@
 
 
 
+   <?php include("partials/urls.php"); ?>
 
 
 
@@ -91,6 +93,9 @@
 <!--<script src="dist/js/chatus-min.js"></script>-->
 <script src="dist/js/mix.it.up.js"></script>
 <script src="dist/js/modals-min.js"></script>
+<script src="dist/js/buttons-min.js"></script>
+<script src="dist/js/url-switcher.js"></script>
+<script src="https://theautohost.com/_clients/SUFO/fixes/js/ae.chat.js"></script>
 
 <!--<script src="dist/js/inventory-min.js"></script>-->
 

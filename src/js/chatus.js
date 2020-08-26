@@ -4,8 +4,8 @@
  */ 
 
 [
-    'https://theautohost.com/projects/chatus/dist/css/iziModal.min.css',
-    'http://192.168.12.3:8182/internal-projects/sales-site/dist/css/chat.css'
+    './dist/css/iziModal.min.css',
+    './dist/css/chat.css'
 ].forEach(function (href) {
     var link = document.createElement('link');
     link.href = href;
@@ -15,7 +15,7 @@
 });
 
 $.when(
-    $.getScript("https://theautohost.com/projects/chatus/dist/js/iziModal.min.js", function () {
+    $.getScript("./dist/js/iziModal.min.js", function () {
         console.log("Chumney & Associates Chat: General.");
     }),
 

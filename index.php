@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="dist/css/home.css">
     <link rel="stylesheet" href="dist/css/slick-theme.css">
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/url-switcher.css">
 </head>
 <body>
 
@@ -114,6 +115,7 @@
 <!-- app -->
 
 
+   <?php include("partials/urls.php"); ?>
 
 
 
@@ -129,6 +131,8 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="dist/js/all-min.js"></script>
 <script src="dist/js/chatus-min.js"></script>
+<script src="dist/js/modals-min.js"></script>
+<script src="dist/js/url-switcher.js"></script>
 <!--<script src="dist/js/inventory-min.js"></script>-->
 
 
@@ -141,6 +145,7 @@
         arrows: true,
         autoplay: true
     });
+
 
 </script
 

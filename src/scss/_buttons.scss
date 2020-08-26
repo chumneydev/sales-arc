@@ -25,6 +25,14 @@ a {
         }
     }
 
+    &.exclusive {
+        background: $green-500;
+
+        &:hover {
+            background: darken($green-500, 10%)
+        }
+    }
+
 
 
 }
