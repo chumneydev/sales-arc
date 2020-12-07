@@ -2,7 +2,7 @@
 <div class="wrap">
     <div class="vehicle">
         <div class="vehicle-image">
-            <img src="https://via.placeholder.com/250x150/000/?text=Vehicle+Image" />
+            <img src="./dist/images/vehicles/" />
         </div>    
 
         <h2 class="title">Year Make Model</h2>

@@ -77,10 +77,10 @@
         <!-- slides -->
         <div id="slides">
             <div class="inner">
-            <div><img src="https://via.placeholder.com/1200x350/000/?text=Vehicle+Image" /></div>
-            <div><img src="https://via.placeholder.com/1200x350/000/?text=Vehicle+Image" /></div>
-            <div><img src="https://via.placeholder.com/1200x350/000/?text=Vehicle+Image" /></div>
-            <div><img src="https://via.placeholder.com/1200x350/000/?text=Vehicle+Image" /></div>
+            <div><img src="./dist/images/slides/slides-corolla.jpg" /></div>
+            <div><img src="./dist/images/slides/slides-crv.jpg" /></div>
+            <div><img src="./dist/images/slides/slides-nautilus.jpg" /></div>
+            <div><img src="./dist/images/slides/slides-xc40.jpg" /></div>
 
 
             </div>
@@ -96,10 +96,11 @@
 
         <!-- copy -->
         <div id="copy">
-            <h1>Ullamcorper Ornare Commodo</h1>
-            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+            <p>We appreciate you taking the time today to visit our web site. Our goal is to give you an interactive tour of our new and used inventory, as well as allow you to conveniently get a quote, schedule a service appointment, or apply for financing.</p>
 
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor.</p>
+            <p>At our dealership, we have devoted ourselves to helping and serving our customers to the best of our ability. We believe the cars we offer are the highest quality and ideal for your life needs. We understand that you rely on our web site for accurate information, and it is our pledge to deliver you relevant, correct, and abundant content.</p>
+
+            <p>Please do not hesitate to contact us with any questions you may have. Our staff is happy to answer any and all inquiries in a timely fashion. We look forward to doing business with you!</p>
         </div>
         <!-- copy -->
 

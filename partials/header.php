@@ -35,11 +35,13 @@
                 <li>
                     <a href="">Email Campaigns +</a>
                         <ul>
-                            <li><a href="./services/emails/database-email-campaigns.php">Database Email Campaigns</a>
+                            <li><a href="./database-email-campaigns.php">Database Email Campaigns</a>
                         </ul>    
                 </li>
-                <li><a href="./services/modals/trade-evaluation.php">Trade Evaluation</a></li>
 
+                <li>
+                    <a href="./custom-landing-page.php">Custom Landing Page</a>
+                </li>
 
 
 

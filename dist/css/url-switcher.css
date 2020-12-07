@@ -22,7 +22,16 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 5px 0;
+  padding: 10px 0;
+  transition: color .5s;
+}
+
+#url-switcher.active ul li:not(:last-child) {
+  border-bottom: 1px solid #E2E8F0;
+}
+
+#url-switcher.active ul li:hover {
+  color: #EB2D1C;
 }
 
 #url-switcher ul {

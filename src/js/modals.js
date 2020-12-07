@@ -93,6 +93,7 @@ $(document).ready(function () {
     function buildExitModal() {
         var modal = `
         <div id="ca-modal" class="iziModal">
+            <img src="./dist/images/modal-exit.jpg" alt="$505 in trade assistance">
             <form role="form" method="post">
                 <div class="insp-row">
                     <label for="firstname"> Full Name</label>
@@ -113,7 +114,7 @@ $(document).ready(function () {
                 </div>
 
                 <div class="insp-row">
-                    <button type="submit" id="ca-submit" name="submit">Get More Information</button>
+                    <button type="submit" id="ca-submit" name="submit">Yes! Save Me Money!</button>
                 </div>
             </form>
         </div>`;
@@ -134,6 +135,8 @@ $(document).ready(function () {
     function buildEntranceModal() {
         var modal = `
         <div id="ca-modal" class="iziModal">
+            <img src="./dist/images/modal-entrance.jpg" alt="$505 in trade assistance">
+
             <form role="form" method="post">
                 <div class="insp-row">
                     <label for="firstname"> Full Name</label>
@@ -154,7 +157,7 @@ $(document).ready(function () {
                 </div>
 
                 <div class="insp-row">
-                    <button type="submit" id="ca-submit" name="submit">Get More Information</button>
+                    <button type="submit" id="ca-submit" name="submit">Yes! Save Me Money!</button>
                 </div>
             </form>
         </div>`;

@@ -2,7 +2,7 @@
 <div class="wrap mix one" data-price="24000.00">
     <div class="vehicle">
         <div class="vehicle-image">
-            <img src="https://via.placeholder.com/250x150/000/?text=Vehicle+Image" />
+            <img src="./dist/images/vehicles/" />
         </div>    
 
         <h2 class="title">Year Make Model</h2>
@@ -46,7 +46,7 @@
             <div class="vehicle-feature special">
                 <p>Special Offer</p>
             </div>
-            <img src="https://via.placeholder.com/250x150/000/?text=Vehicle+Image" />
+            <img src="./dist/images/vehicles/" />
         </div>    
 
         <h2 class="title">Year Make Model</h2>
@@ -87,7 +87,7 @@
 <div class="wrap mix" data-price="17500.00">
     <div class="vehicle">
         <div class="vehicle-image">
-            <img src="https://via.placeholder.com/250x150/000/?text=Vehicle+Image" />
+            <img src="./dist/images/vehicles/" />
         </div>    
 
         <h2 class="title">Year Make Model</h2>
@@ -129,7 +129,7 @@
     <div class="vehicle">
         <div class="vehicle-image">
             
-            <img src="https://via.placeholder.com/250x150/000/?text=Vehicle+Image" />
+            <img src="./dist/images/vehicles/" />
         </div>    
 
         <h2 class="title">Year Make Model</h2>

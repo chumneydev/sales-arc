@@ -6,6 +6,7 @@ a.button {
   text-align: center;
   text-decoration: none;
   padding: 10px 0;
+  transition: background-color .5s;
 }
 
 a.button:hover {
@@ -86,18 +87,38 @@ body {
   width: 100%;
   padding: 5px 10px;
   border-radius: 0;
-  border: 1px solid #CBD5E0;
+  border: 1px solid #E2E8F0;
   font-size: 14px;
   display: block;
+  transition: border-color .5s;
+}
+
+#ca-modal form input:hover {
+  border-color: #EB2D1C;
+}
+
+#ca-modal form input:focus {
+  outline: none;
+  border: 1px solid #EB2D1C;
 }
 
 #ca-modal form textarea {
   width: 100%;
   padding: 5px 10px;
   border-radius: 0;
-  border: 1px solid #CBD5E0;
+  border: 1px solid #E2E8F0;
   font-size: 14px;
   display: block;
+  transition: border-color .5s;
+}
+
+#ca-modal form textarea:hover {
+  border-color: #EB2D1C;
+}
+
+#ca-modal form textarea:focus {
+  outline: none;
+  border: 1px solid #EB2D1C;
 }
 
 #ca-modal form #ca-submit {
@@ -119,6 +140,76 @@ body {
   padding: 10px 0;
 }
 
+#insert-modal form {
+  width: 100%;
+}
+
+#insert-modal form label {
+  display: block;
+  padding: 0 0 5px 0;
+}
+
+#insert-modal form input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 1px solid #E2E8F0;
+  font-size: 14px;
+  display: block;
+  transition: border-color .5s;
+}
+
+#insert-modal form input:hover {
+  border-color: #EB2D1C;
+}
+
+#insert-modal form input:focus {
+  outline: none;
+  border: 1px solid #EB2D1C;
+}
+
+#insert-modal form textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 1px solid #E2E8F0;
+  font-size: 14px;
+  display: block;
+  transition: border-color .5s;
+}
+
+#insert-modal form textarea:hover {
+  border-color: #EB2D1C;
+}
+
+#insert-modal form textarea:focus {
+  outline: none;
+  border: 1px solid #EB2D1C;
+}
+
+#insert-modal form #ca-submit {
+  color: #FFFFFF;
+  font-size: 14px;
+  background: #EB2D1C;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#insert-modal form #ca-submit:hover {
+  background: #c32011;
+}
+
+#insert-modal form .insp-row {
+  padding: 10px 0;
+}
+
+#insert-modal img {
+  width: 100%;
+}
+
 #ca-modal-video #video video {
   width: 100%;
   display: block;
@@ -137,18 +228,38 @@ body {
   width: 100%;
   padding: 5px 10px;
   border-radius: 0;
-  border: 1px solid #CBD5E0;
+  border: 1px solid #E2E8F0;
   font-size: 14px;
   display: block;
+  transition: border-color .5s;
+}
+
+#ca-modal-video form input:hover {
+  border-color: #EB2D1C;
+}
+
+#ca-modal-video form input:focus {
+  outline: none;
+  border: 1px solid #EB2D1C;
 }
 
 #ca-modal-video form textarea {
   width: 100%;
   padding: 5px 10px;
   border-radius: 0;
-  border: 1px solid #CBD5E0;
+  border: 1px solid #E2E8F0;
   font-size: 14px;
   display: block;
+  transition: border-color .5s;
+}
+
+#ca-modal-video form textarea:hover {
+  border-color: #EB2D1C;
+}
+
+#ca-modal-video form textarea:focus {
+  outline: none;
+  border: 1px solid #EB2D1C;
 }
 
 #ca-modal-video form #ca-submit {

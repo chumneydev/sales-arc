@@ -29,11 +29,9 @@
                 <li><a href="#" class="loader" data-img="./services/emails/buy-back.png">Buy Back</a></li>
                 <li><a href="#" class="loader" data-img="./services/emails/competitors-database.png">Competitor's Database</a></li>
                 <li><a href="#" class="loader" data-img="./services/emails/equity-high-interest.png">Equity High Interest</a></li>
-                <li><a href="#" class="loader" data-img="./services/emails/equity.png">Equity</a></li>
-                <li><a href="#" class="loader" data-img="./services/emails/.png">EZ-Upgrade</a></li>
                 <li><a href="#" class="loader" data-img="./services/emails/high-interest.png">High Interest</a></li>
-                <li><a href="#" class="loader" data-img="./services/emails/lease.png">Lease</a></li>
-                <li><a href="#" class="loader" data-img="./services/emails/lost-customer-three-scratch.png">Lost Customer Scratch-off</a></li>
+                <li><a href="#" class="loader" data-img="./services/emails/lease-end.png">Lease End</a></li>
+                <li><a href="#" class="loader" data-img="./services/emails/lost-customer.png">Lost Customer</a></li>
                 <li><a href="#" class="loader" data-img="./services/emails/top-trades.png">Top Trades</a></li>
             </ul>
         </div>
@@ -92,7 +90,7 @@
         var dataURL = $(this).data('img');
         console.log(dataURL);
 
-        var imgSrc = '<img src="' + dataURL + '" />';
+        var imgSrc = '<a href="./custom-landing-page.php"><img src="' + dataURL + '" /></a>';
 
         $("#emails").hide().html(imgSrc).fadeIn('slow', 'swing');
         $(newImg);

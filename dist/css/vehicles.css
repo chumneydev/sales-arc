@@ -69,6 +69,7 @@
   position: absolute;
   background: #EB2D1C;
   z-index: 100;
+  box-shadow: 0 5px 15px -4px rgba(0, 0, 0, 0.5);
 }
 
 #header .container #nav ul li a {
@@ -128,6 +129,7 @@ a.button {
   text-align: center;
   text-decoration: none;
   padding: 10px 0;
+  transition: background-color .5s;
 }
 
 a.button:hover {
@@ -164,6 +166,7 @@ body {
 #banner {
   display: flex;
   flex: 1 0 auto;
+  align-items: center;
   background: #FFFFFF;
   min-height: 20px;
   margin: 20px 40px;
@@ -182,6 +185,7 @@ body {
 #banner ul li::after {
   content: ">";
   padding: 0 10px;
+  font-size: .7em;
 }
 
 #banner ul li:last-of-type::after {

@@ -70,6 +70,7 @@
   position: absolute;
   background: #EB2D1C;
   z-index: 100;
+  box-shadow: 0 5px 15px -4px rgba(0, 0, 0, 0.5);
 }
 
 #header .container #nav ul li a {

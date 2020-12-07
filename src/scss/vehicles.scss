@@ -18,6 +18,7 @@ body {
 #banner {
     display: flex;
     flex: 1 0 auto;
+    align-items: center;
     background: $white;
     min-height: 20px;
     margin: 20px 40px;
@@ -33,6 +34,7 @@ body {
             &::after {
                 content: ">";
                 padding: 0 10px;
+                font-size: .7em;
             }
 
             &:last-of-type::after {

@@ -71,18 +71,34 @@ body {
         width: 100%;
         padding: 5px 10px;
         border-radius: 0;
-        border: 1px solid #CBD5E0;
+        border: 1px solid $grey-300;
         font-size: 14px;
         display: block;
+        transition: border-color .5s;
+        &:hover {
+            border-color: $red;
+        }
+        &:focus {
+            outline: none;
+            border: 1px solid $red;
+        }
     }
 
     & textarea {
         width: 100%;
         padding: 5px 10px;
         border-radius: 0;
-        border: 1px solid #CBD5E0;
+        border: 1px solid $grey-300;
         font-size: 14px;
         display: block;
+        transition: border-color .5s;
+        &:hover {
+            border-color: $red;
+        }
+        &:focus {
+            outline: none;
+            border: 1px solid $red;
+        }
     }
 
     & #ca-submit {
@@ -108,6 +124,75 @@ body {
 
 }
 
+#insert-modal form {
+  width: 100%;
+
+    & label {
+        display: block;
+        padding: 0 0 5px 0;
+    }
+
+    & input {
+        width: 100%;
+        padding: 5px 10px;
+        border-radius: 0;
+        border: 1px solid $grey-300;
+        font-size: 14px;
+        display: block;
+        transition: border-color .5s;
+        &:hover {
+            border-color: $red;
+        }
+        &:focus {
+            outline: none;
+            border: 1px solid $red;
+        }
+    }
+
+    & textarea {
+        width: 100%;
+        padding: 5px 10px;
+        border-radius: 0;
+        border: 1px solid $grey-300;
+        font-size: 14px;
+        display: block;
+        transition: border-color .5s;
+        &:hover {
+            border-color: $red;
+        }
+        &:focus {
+            outline: none;
+            border: 1px solid $red;
+        }
+    }
+
+    & #ca-submit {
+        color: #FFFFFF;
+        font-size: 14px;
+        background: $red;
+        border: none;
+        font-weight: bold;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 100%;
+
+        &:hover {
+            background: darken($red, 10%)
+        }
+
+    }
+
+
+    & .insp-row {
+        padding: 10px 0;
+    }
+
+}
+#insert-modal {
+    img {
+        width: 100%;
+    }
+}
 
 #ca-modal-video  {
 
@@ -131,18 +216,34 @@ body {
             width: 100%;
             padding: 5px 10px;
             border-radius: 0;
-            border: 1px solid #CBD5E0;
+            border: 1px solid $grey-300;
             font-size: 14px;
             display: block;
+            transition: border-color .5s;
+            &:hover {
+                border-color: $red;
+            }
+            &:focus {
+                outline: none;
+                border: 1px solid $red;
+            }
         }
 
         & textarea {
             width: 100%;
             padding: 5px 10px;
             border-radius: 0;
-            border: 1px solid #CBD5E0;
+            border: 1px solid $grey-300;
             font-size: 14px;
             display: block;
+            transition: border-color .5s;
+            &:hover {
+                border-color: $red;
+            }
+            &:focus {
+                outline: none;
+                border: 1px solid $red;
+            }
         }
 
         & #ca-submit {

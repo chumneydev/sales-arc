@@ -70,6 +70,7 @@
   position: absolute;
   background: #EB2D1C;
   z-index: 100;
+  box-shadow: 0 5px 15px -4px rgba(0, 0, 0, 0.5);
 }
 
 #header .container #nav ul li a {
@@ -158,22 +159,25 @@ body {
 
 #main #switcher ul li {
   list-style: none;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 #main #switcher ul li a {
   color: #000000;
   text-decoration: none;
-  transition: color .5s;
+  transition: color .5s ease;
+  border-bottom: 1px solid transparent;
+  transition: border .5s ease;
 }
 
 #main #switcher ul li a:hover {
   color: #EB2D1C;
+  border-bottom: 1px solid #EB2D1C;
 }
 
 #main #switcher ul li a.active {
-  background: #EB2D1C;
-  color: #FFFFFF;
+  border-bottom: 1px solid #EB2D1C;
+  color: #EB2D1C;
 }
 
 #main #content-wrapper {

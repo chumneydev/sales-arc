@@ -10,6 +10,8 @@ a {
         text-align: center;
         text-decoration: none;
         padding: 10px 0;
+        transition: background-color .5s;
+
 
         &:hover {
             background: darken($red, 10%)
